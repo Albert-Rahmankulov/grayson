@@ -1,0 +1,139 @@
+/* 1200 */
+@media(max-width: 1199.9px) {
+    .commerce__content_cards {
+        gap: 20px;
+    }
+
+    .custom__content_cards {
+        gap: 20px;
+    }
+
+    .custom__content_cards {
+        width: 100%;
+    }
+
+    .custom__content_cards {
+        overflow-x: scroll;
+
+    }
+
+}
+
+/* 992 */
+@media(max-width: 991.9px) {
+    .nav {
+        position: relative;
+
+    }
+
+    .form input {
+        position: absolute;
+        left: 0;
+        height: 100%;
+        top: 0;
+        width: 0;
+        opacity: 0;
+        font-size: 18px;
+
+    }
+
+    .form:hover input {
+        width: 100%;
+        opacity: 1;
+    }
+
+    .nav__list {
+        gap: 20px;
+    }
+
+    .commerce__content_cards {
+        overflow-x: scroll;
+
+    }
+
+    .commerce__content_card span {
+        bottom: -30%;
+    }
+
+}
+
+/* 768 */
+@media(max-width: 767.9px) {
+    .header {
+        overflow: hidden;
+    }
+
+    .nav__list {
+        position: absolute;
+        right: -100%;
+        top: 100%;
+        flex-direction: column;
+        background-color: white;
+        padding: 25px;
+        border: 1px solid #e5e5e5;
+    }
+
+    .dropdown {
+        width: 120px;
+        left: -142px;
+    }
+
+    .nav__content {
+        gap: 10px;
+        justify-content: start;
+    }
+
+    .nav__menu {
+        order: 1;
+    }
+
+    .nav__menu:hover .nav__list {
+        right: 0;
+    }
+
+    .form {
+        margin-left: auto;
+    }
+
+    .nav__menu_btn {
+        display: flex;
+    }
+
+    .header__content_title {
+        text-align: center;
+
+    }
+
+    .commerce__content_cards {
+        overflow-x: scroll;
+    }
+
+    .commerce__content_card {
+        min-width: 255px;
+    }
+
+    .custom__content_cards {
+        overflow-x: scroll;
+    }
+
+    .custom__content_card {
+        min-width: 255px;
+    }
+}
+
+/* 575 */
+@media(max-width: 575.9px) {
+    .header__content_title {
+        font-size: 35px;
+        padding: 10px 31px;
+        line-height: 37px;
+    }
+
+    .header__content {
+        min-height: 550px;
+    }
+
+    .logo img {
+        transform: scale(0.8);
+    }
+}
